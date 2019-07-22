@@ -197,7 +197,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 }
 
 .bg-gradient {
-  background-image: linear-gradient(145deg, rgba(19, 177, 205, 0.95) 0%, rgba(152, 119, 234, 0.95) 100%);
+   background-image: linear-gradient(145deg, rgba(19, 177, 205, 0.95) 0%, #0F0782 100%);
   background-repeat: repeat-x;
 }
 
@@ -2019,5 +2019,77 @@ input.MyButton {
   max-width: 100%;
   height: 220px;
 }
+
+
+/* css for testimonial page */
+/* css for avatar image */
+.avatar1{
+  max-width: 150%;
+  height: 220px;
+}
+
+/* Colour for card */
+.fas {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+}
+.dark-grey-text {
+  color: #4f4f4f !important;
+}
+/* card for testimonials */
+.testimonial-card .card-up {
+  overflow: hidden;
+  height: 120px;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+}
+/* colours for various cards */
+.blue-gradient1 {
+  background: linear-gradient(40deg,#45cafc,#0F0782) !important;
+}
+.blue-gradient2{
+background: linear-gradient(145deg, rgba(19, 177, 205, 0.95) 0%, #0F0782 100%)
+}
+.blue-gradient {
+  background: linear-gradient(40deg,#45cafc,#303f9f) !important;
+}
+
+.testimonial-card .avatar1 {
+  border-radius: 50%;
+  width: 200px;
+  margin-top: -60px;
+  overflow: hidden;
+  border: 5px solid #fff;
+}
+
+.testimonial-card .card-up {
+  overflow: hidden;
+  height: 120px;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+}
+.blue-gradient {
+  background: linear-gradient(40deg,#45cafc,#0F0782) !important;
+}
+/* Read more button for testimonials page */
+
+
+.testimonial-card .avatar1 img {
+  width: 100%;
+}
+.img-fluid, .modal-dialog.cascading-modal.modal-avatar .modal-header, .video-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+/* end of testimonials */
 
 /*# sourceMappingURL=maps/style.css.map */
