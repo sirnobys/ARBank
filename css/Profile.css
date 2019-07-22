@@ -1,10 +1,7 @@
 body{
     /*font-family: 'Open Sans', sans-serif*/;
 }
-*:hover{
-    -webkit-transition: all 1s ease;
-    transition: all 1s ease;
-}
+
 section{
     float:left;
     width:100%;
