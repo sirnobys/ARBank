@@ -2021,7 +2021,45 @@ input.MyButton {
 }
 
 
+.bg-4  {
+
+ 
+  background: url("../images/tp2.jpg") no-repeat 50% 50%;
+  background-size: cover;
+  height: 400px;
+}
+/* css for the page title and image */
+.page-title1 {
+  padding: 100px ;
+}
+
+.page-title1 .block h1 {
+  color: #fff;
+}
+
+.page-title1 .block p {
+  color: #fff;
+}
+
+.overly, .page-title1, .slider, .cta, .hero-img {
+  position: relative;
+}
+ .page-title1:before, {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .3;
+  background: #000;
+}
+/* end of page title */
+
 /* css for testimonial page */
+
 /* css for avatar image */
 .avatar1{
   max-width: 150%;
@@ -2091,5 +2129,4 @@ img {
   border-style: none;
 }
 /* end of testimonials */
-
 /*# sourceMappingURL=maps/style.css.map */
