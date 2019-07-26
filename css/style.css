@@ -552,9 +552,9 @@ ul.dropdown-menu li {
 }
 
 .bg-1  {
-  background: url("../images/flags/dark.jpg") no-repeat 50% 50%;
+  background: url("../images/home.jpeg") no-repeat 50% 50%;
   background-size: cover;
-  height: 580px;
+  height: 600px;
    
 }
 
@@ -1747,7 +1747,7 @@ margin-top: -20px;
     margin-top: auto;
     */
     height: 38px;
-    background-color: #0c065f;
+    background-color: #AD7F0A;
     /*border-radius: 30px;*/
     /*padding: 10px;*/
     border-top-left-radius: 30px;
@@ -1756,7 +1756,11 @@ margin-top: -20px;
     border-bottom-right-radius:30px;
 
     }
+ 
+  .searchbar:hover{
+        background-color: #0c065f
 
+  }
     .search_input{
     color: #fff;
     border: 0;
@@ -1770,7 +1774,7 @@ margin-top: -20px;
     }
 
     .searchbar:hover > .search_input{
-    padding: 0 10px;
+    padding: 10px 10px 10px 10px;
     width: 350px;
     caret-color: #0a1337;
     transition: width 0.4s linear;
@@ -1779,10 +1783,18 @@ margin-top: -20px;
     .searchbar:hover > .search_icon{
     background: none;
     color: white;
+    background-color: #AD7F0A;
     }
 
+
+    .searchhover:hover{
+    background-color: red;
+    }
+
+
+
     .search_icon{
-    height: 40px;
+    height: 38px;
     width: 40px;
     float: right;
     display: flex;
@@ -1791,10 +1803,8 @@ margin-top: -20px;
     border-radius: 50%;
     color:white;
     }
-   .search_icon :hover{
 
-    color: grey;
-   }
+   
 
     .btnSubmit:hover{
     font-weight: 600;
@@ -2026,7 +2036,7 @@ input.MyButton {
  
   background: url("../images/tp2.jpg") no-repeat 50% 50%;
   background-size: cover;
-  height: 400px;
+  /*height: 400px;*/
 }
 /* css for the page title and image */
 .page-title1 {

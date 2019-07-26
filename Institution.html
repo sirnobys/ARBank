@@ -34,78 +34,71 @@
 <body>
 
  
-  <header class="navigation fixed-top">
-  <div class="header-top ">
+ <header class="navigation fixed-top">
+  
+  <div class="header-top">
 
     <!-- topmost navbar division-->
     <nav class="container-fluid" id="topmost-navbar">
     <!-- created id for topmost navbar -->
 
 
-      <div class="row justify-content-between ">
-        <div class="col-lg-2 col-md-2">
+      <div class="row justify-content-between">
+        
+          <!-- login/register buttons -->
+        <div class="col-lg-12 col-md-12 text-center text-lg-right text-md-right">
+
+            <div>
 
           <!-- flag icons to toggle languages -->
-          
-
-
-
-        </div>
-
-
-          <!-- login/register buttons -->
-       <!--  <div class="col-lg-10 col-md-8 text-center text-lg-right text-md-right" id="arrange">
-          
-          <form class=" text-center">
-      <a href="login.html" class="btn btn-solid-border btn-round-full btn-small">Log in <i class="fas fa-sign-in-alt"></i></a>
-        <a href="register.html" class="btn btn-solid-border btn-round-full btn-small">Register <i class="fas fa-portrait"></i></a>
-      </form>
-          
-    </div> -->
-    <div class="col-lg-10 col-md-8 text-center text-lg-right text-md-right">
-          <!-- <div class="header-top-info"> -->
-            <div >
+          <div >
+         <span class="mr-2"> Click to change language:</span>
             <a href="" data-toggle="tooltip" title="English">
-              <img src="images/flags/eng.png" width="20px">
+              <img src="images/flags/eng.png" width="30px">
             </a>
             <a href="" data-toggle="tooltip" title="Français">
-              <img src="images/flags/france.jpg" width="20px">
+              <img src="images/flags/france.jpg" width="30px">
             </a>
 
             <a href="" data-toggle="tooltip" title="Português">
-              <img src="images/flags/portugal.jpg" width="20px">
+              <img src="images/flags/portugal.jpg" width="30px">
             </a>
             <a href="" data-toggle="tooltip" title="العربية">
-              <img src="images/flags/saudi.png" width="20px"></a>
+              <img src="images/flags/saudi.png" width="30px">
+            </a>
 
           </div>
-          </div>
+
+
+
         </div>
-
-
            
         </div>
         
       </div>
     </nav>
+
   </div>
 
 
 
     <!-- second navbar start -->
+
   <nav class="navbar navbar-expand-lg  py-1 " id="navbar">
     <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">
+      <a class="navbar-brand" href="index.html">
         <span class="ml-5"><img src="images/arb_logo.png" style="width: 120px;"><br>
         <span class="text-color">African Research Bank</span>
       </a>
 
-
+      
+      <!-- button to toggle navigation items in other platform views -->
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
       <span class="fa fa-bars"></span> 
       </button>
       
-     <!-- navbar items toggled by the toggler button -->
+
+      <!-- navbar items toggled by the toggler button -->
       <div class="collapse navbar-collapse text-center" id="navbarsExample09" >
       <ul class="navbar-nav ml-auto mx-auto">
         <li class="nav-item">
@@ -114,6 +107,7 @@
          <li class="nav-item"><a class="nav-link" href="categories.html">Categories</a></li>
      
                <li class="nav-item"><a class="nav-link" href="http://datad.aau.org/" target="_blank">Repository</a></li>
+               <li class="nav-item"><a class="nav-link" href="testimonial.html">Testimonial</a></li>
          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
         <div class="dropdowns">
              <li class="nav-item"><a class="nav-link" >About US</a>
@@ -134,20 +128,30 @@
       
 
       <!-- user profile -->
-        <form class="form-lg-inline my-2 my-md-0 text-center  ml-auto">
+      <form class="form-lg-inline my-2 my-md-0 text-center  ml-auto">
       
       <div class="dropdowns mr-5">
      <i class="fa fa-user"></i> Account User
       <div class="dropdown-content">
+         <a class="dropdown-item" href="Profile.html">View Profile</a>
         <a class="dropdown-item" href="#">Logout</a>
+
       </div>
     </div> 
     </form>
-    </div>
+</div>
+ 
+    
+     
 
 
     
   </nav>
+
+ <!-- second navbar end -->
+ 
+      
+  </header>
  <!-- second navbar end -->
  <div>
  <div class="row col-md-12">
@@ -210,13 +214,13 @@
            </div>
            <div class="col-md-6">
               <div class="form-group">
-                  <input type="password" class="form-control" placeholder=" Current Password *" value="" / required="">
+                  <input type="password" class="form-control" placeholder=" Current Password *" value="" / required>
               </div>
               <div class="form-group">
-                  <input type="password" class="form-control"  placeholder="New Password *" value="" / required="">
+                  <input type="password" class="form-control"  placeholder="New Password *" value="" / required>
               </div>
               <div class="form-group">
-                  <input type="password" class="form-control"  placeholder="Confirm New Password *" value="" / required="">
+                  <input type="password" class="form-control"  placeholder="Confirm New Password *" value="" / required>
               </div>
               <div class="form-group" >
                   <textarea rows="2" class="form-control" placeholder="Intro *"></textarea>
@@ -241,39 +245,60 @@
 </div>
 </div>
 
-<div class="col-md-8" id="card-group">
-  <h5>Your Dashboard</h5>
-<div class="card-group" id="card2">
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title">10</h5>
-      <p class="card-text">Topics Submitted</p>
-     
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title">1</h5>
-      <p class="card-text">Works completed</p>
-     
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title">2</h5>
-      <p class="card-text">Pending</p>
-     
-    </div>
-  </div>
-</div>
-<div class="card mb-3" id="card3">
-  <div class="card-body">
-    <h5 class="card-title">Researches completed</h5>
-    <p class="card-text"></p>
-    
-  </div>
-</div>
-</div>
+<div class="col-sm-8" id="card-group">
+       <h5>Your Dashboard</h5>
+      <div class="card-group" id="card2">
+        <table>
+          <tr >
+            <td width="300">
+              <div class="card">
+                <div class="card-body">
+                <h5 class="card-title">10</h5>
+                <p class="card-text">Topics Submitted</p>
+                </div>
+              </div>
+
+
+           </td>
+
+
+            <td width="300"> 
+              <div class="card">
+              <div class="card-body">
+              <h5 class="card-title">1</h5>
+              <p class="card-text">Works Completed</p>
+              </div>
+              </div>
+              </td>
+
+
+            <td width="300">
+              <div class="card">
+                <div class="card-body">
+                <h5 class="card-title">2</h5>
+                <p class="card-text">Pending</p>
+                </div>
+            </div>
+           </td>
+          </tr>
+
+
+          <tr>
+            <td></td>
+          </tr>
+        </table>
+        
+       
+        
+      </div>
+      <div class="card" id="card3">
+        <div class="card-body">
+          <h5 class="card-title">Researches conducted</h5>
+          <p class="card-text"></p>
+          
+        </div>
+      </div>
+      </div>
 </div>
 
 
@@ -302,7 +327,7 @@
           <ul class="list-unstyled footer-menu lh-25">
             <li><a href="index.html">Home</a></li>
             <li><a href="categories.html">Categories</a></li>
-            <li><a href="Repository.html">Repository</a></li>
+            <li><a href="http://datad.aau.org/" target="_blank">Repository</a></li>
             <li><a href="about.html">About Us</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
@@ -388,6 +413,7 @@
     </div>
   </div>
 </footer>
+   
    
 
  <script src="plugins/jquery/jquery.js"></script>
