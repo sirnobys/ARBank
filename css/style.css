@@ -2134,9 +2134,33 @@ background: linear-gradient(145deg, rgba(19, 177, 205, 0.95) 0%, #0F0782 100%)
   max-width: 100%;
   height: auto;
 }
-img {
+/*img {
   vertical-align: middle;
   border-style: none;
-}
+}*/
+
+
+
+/*partners page
+=================
+*/
+ .card-style{
+ 
+ box-shadow: 10px 10px 5px lightgrey;
+
+ }
+
+  .card-style img{
+   display: block;
+   margin:auto;
+   width: 500px;
+   height: 280px;
+   box-shadow: 5px 5px 5px #AD7F0A;
+
+ }
+
+
+
+
 /* end of testimonials */
 /*# sourceMappingURL=maps/style.css.map */
