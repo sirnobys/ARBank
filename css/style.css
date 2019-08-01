@@ -1988,6 +1988,13 @@ input.MyButton {
   color: #fff;
   width: 100%;
 }
+
+.block-intro-half .block-desc1{
+  padding: 72px 5% 72px 50px;
+  background: #AD7F0A;
+  color: #fff;
+  width: 100%;
+}
 .block-intro-half .block-desc+div, .block-intro-half div+.block-desc{
   width: 55%;
 }
