@@ -574,6 +574,41 @@ margin-top: 80px;
   background-size: cover;
 }
 
+.bg-4  {
+
+ 
+  background: url("../images/tp2.jpg") no-repeat 50% 50%;
+  background-size: cover;
+  /*height: 400px;*/
+}
+
+
+.bg-5  {
+
+ 
+  background: url("../images/contact.jpg") no-repeat 50% 50%;
+  background-size: cover;
+  /*height: 400px;*/
+}
+
+.bg-6  {
+
+ 
+  background: url("../images/flags/flower-pot.jpg") no-repeat 50% 50%;
+  background-size: cover;
+  /*height: 400px;*/
+}
+
+.bg-7  {
+
+ 
+  background: url("../images/flags/dark.jpg") no-repeat 50% 50%;
+  background-size: cover;
+  /*height: 400px;*/
+}
+
+
+
 
 .slider {
   background: url("../images/bg/home-1.jpg") no-repeat;
@@ -2039,13 +2074,7 @@ input.MyButton {
 }
 
 
-.bg-4  {
 
- 
-  background: url("../images/tp2.jpg") no-repeat 50% 50%;
-  background-size: cover;
-  /*height: 400px;*/
-}
 /* css for the page title and image */
 .page-title1 {
   padding: 100px ;
@@ -2161,9 +2190,9 @@ background: linear-gradient(145deg, rgba(19, 177, 205, 0.95) 0%, #0F0782 100%)
   .card-style img{
    display: block;
    margin:auto;
-   width: 500px;
+   width: 400px;
    height: 280px;
-   box-shadow: 5px 5px 5px #AD7F0A;
+   /*box-shadow: 5px 5px 5px ;*/
 
  }
 
